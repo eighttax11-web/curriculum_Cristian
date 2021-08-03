@@ -6,13 +6,15 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DatosPersonalesComponent } from './components/datos-personales/datos-personales.component';
 import { DatosAcademicosComponent } from './components/datos-academicos/datos-academicos.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     DatosPersonalesComponent,
-    DatosAcademicosComponent
+    DatosAcademicosComponent,
+    ExperienciaComponent
   ],
   imports: [
     BrowserModule,
