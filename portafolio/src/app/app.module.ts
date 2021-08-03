@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { DatosPersonalesComponent } from './components/datos-personales/datos-personales.component';
 import { DatosAcademicosComponent } from './components/datos-academicos/datos-academicos.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { AptitudesHabilidadesComponent } from './components/aptitudes-habilidades/aptitudes-habilidades.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
     NavbarComponent,
     DatosPersonalesComponent,
     DatosAcademicosComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    AptitudesHabilidadesComponent
   ],
   imports: [
     BrowserModule,
